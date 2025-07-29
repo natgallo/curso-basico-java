@@ -1,4 +1,4 @@
-package listaExerciciosUm;
+package cursojava.listaExerciciosUm;
 
 import java.util.Scanner;
 

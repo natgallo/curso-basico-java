@@ -22,7 +22,7 @@ public class SeteAreaDeUmQuadrado {
 
 //Utilizando a correção, com a classe Math
 
-package listaExerciciosUm;
+package cursojava.listaExerciciosUm;
 
 import java.util.Scanner;
 

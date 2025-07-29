@@ -1,4 +1,4 @@
-package listaExerciciosUm;
+package cursojava.listaExerciciosUm;
 
 public class UmOlaMundo {
 

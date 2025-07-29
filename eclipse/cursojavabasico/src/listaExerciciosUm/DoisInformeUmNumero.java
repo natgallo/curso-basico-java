@@ -10,7 +10,6 @@ public class DoisInformeUmNumero {
 		System.out.println("Digite um número");
 		int numeroTeclado = scan.nextInt();
 		System.out.println("O número informado é: " + numeroTeclado);
-		
 	}
 
 }

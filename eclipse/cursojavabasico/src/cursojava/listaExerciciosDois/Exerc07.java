@@ -13,10 +13,8 @@ public class Exerc07 {
 		int numeroDois = scan.nextInt(); //4
 		int numeroTres = scan.nextInt(); //3
 		
-		int maiorDoisTres = Math.max(numeroDois, numeroTres);
-		int maior = Math.max(maiorDoisTres, numeroUm);
-		int menorDoisTres = Math.min(numeroDois, numeroUm);
-		int menor = Math.min(menorDoisTres, numeroTres);
+		int maior = Math.max(numeroUm, Math.max(numeroDois, numeroTres));
+		int menor = Math.min(numeroUm, Math.min(numeroDois, numeroTres));
 		
 		System.out.println(maior);
 		System.out.println(menor);

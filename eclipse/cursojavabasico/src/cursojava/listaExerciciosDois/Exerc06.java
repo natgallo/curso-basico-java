@@ -9,15 +9,15 @@ public class Exerc06 {
 		
 		System.out.println("Digite tres números:");
 		
-		int numeroUm = scan.nextInt(); //2
-		int numeroDois = scan.nextInt(); //4
-		int numeroTres = scan.nextInt(); //3
+		int numeroUm = scan.nextInt();
+		int numeroDois = scan.nextInt();
+		int numeroTres = scan.nextInt(); 
 		
-		int maiorDoisTres = Math.max(numeroDois, numeroTres);
-		int maior = Math.max(maiorDoisTres, numeroUm);
+		int maior = Math.max(numeroUm, Math.max(numeroDois, numeroTres));
 		
 		System.out.println(maior);
 
 	}
 
 }
+

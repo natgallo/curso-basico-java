@@ -11,12 +11,12 @@ public class Exerc15 {
 		int ladoDois = scan.nextInt();
 		int ladoTres = scan.nextInt();
 
-		if (((ladoUm + ladoDois) > ladoTres) && ((ladoDois + ladoTres) > ladoUm) && ((ladoTres + ladoUm) > ladoDois)) {
+		if (((ladoUm + ladoDois) > ladoTres) || ((ladoDois + ladoTres) > ladoUm) || ((ladoTres + ladoUm) > ladoDois)) {
 			if (ladoUm == ladoDois && ladoDois == ladoTres) {
 				System.out.println("Equilátero");
 			} else if (ladoUm == ladoDois || ladoUm == ladoTres || ladoDois == ladoTres) {
 				System.out.println("Isósceles");
-			} else {
+			} else if (ladoUm != ladoDois && ladoUm != ladoTres && ladoTres != ladoDois) {
 				System.out.println("Escaleno");
 			}
 		} else {

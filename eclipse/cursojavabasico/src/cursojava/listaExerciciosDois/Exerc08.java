@@ -13,8 +13,7 @@ public class Exerc08 {
 		int numeroDois = scan.nextInt(); //4
 		int numeroTres = scan.nextInt(); //3
 		
-		int maiorDoisTres = Math.min(numeroDois, numeroTres);
-		int menor = Math.min(maiorDoisTres, numeroUm);
+		int menor = Math.min(numeroUm, Math.min(numeroDois, numeroTres));
 		
 		System.out.println("O produto que deve ser comprado é o que custa: R$"+ menor);
 

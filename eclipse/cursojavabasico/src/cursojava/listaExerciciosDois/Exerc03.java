@@ -11,9 +11,9 @@ public class Exerc03 {
 		
 		String letra = scan.next();
 		
-		if(letra.equals("F")) {
+		if(letra.equalsIgnoreCase("F")) {
 			System.out.println("F-Feminino");
-		} else if (letra.equals("M")) {
+		} else if (letra.equalsIgnoreCase("M")) {
 			System.out.println("M-Masculino");
 		} else {
 			System.out.println("Sexo inválido");

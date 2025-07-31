@@ -36,6 +36,8 @@ public class Exerc14 {
 
 		}
 
+		System.out.println("Nota 1: " + notaUm);
+		System.out.println("Nota 2: " + notaDois);
 		System.out.println("Média de aproveitamento: " + media);
 		System.out.println("Conceito: " + conceito);
 		System.out.println("Situação: " + mensagem);

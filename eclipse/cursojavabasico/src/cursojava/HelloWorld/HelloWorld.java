@@ -1,4 +1,4 @@
-package cursojavabasico;
+package cursojava.HelloWorld;
 
 public class HelloWorld {
 

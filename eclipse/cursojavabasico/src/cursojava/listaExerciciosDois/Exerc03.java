@@ -1,9 +1,23 @@
 package cursojava.listaExerciciosDois;
 
+import java.util.Scanner;
+
 public class Exerc03 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Digite ou F/M");
+		
+		String letra = scan.next();
+		
+		if(letra.equals("F")) {
+			System.out.println("F-Feminino");
+		} else if (letra.equals("M")) {
+			System.out.println("M-Masculino");
+		} else {
+			System.out.println("Sexo inválido");
+		}
 
 	}
 

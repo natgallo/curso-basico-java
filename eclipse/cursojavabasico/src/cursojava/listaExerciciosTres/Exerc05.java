@@ -19,12 +19,12 @@ public class Exerc05 {
 		do {
 			System.out.println("Digite o numero de habitantes de um país: ");
 			habitantesA = scan.nextInt();
-			if (habitantesA == 0 && habitantesA < 0) {
+			if (habitantesA <= 0) {
 				flag = true;
 			} else {
 				System.out.println("Digite o numero de habitantes de um outro país: ");
 				habitantesB = scan.nextInt();
-				if (habitantesB == 0 && habitantesB < 0) {
+				if (habitantesB <= 0) {
 					flag = true;
 				} else {
 					System.out.println("Digite a taxa de crescimento anual do primeiro pais: ");

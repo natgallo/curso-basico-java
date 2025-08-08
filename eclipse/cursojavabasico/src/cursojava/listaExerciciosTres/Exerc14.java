@@ -9,6 +9,7 @@ public class Exerc14 {
 
 		int pares = 0;
 		int impares = 0;
+		//int numero = 0;
 
 		for (int i = 1; i <= 10; i++) {
 			System.out.println("Digite números: ");
